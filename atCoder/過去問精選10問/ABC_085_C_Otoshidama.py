@@ -24,11 +24,29 @@ for 文を用いた全探索
 '''
 
 
-def main2021_02_02(a, b):
+def main2021_02_07(N, total):
+  # 10000yen a枚 5000yen b枚 1000yen c枚  a+b+c = N
+  a_max = total // 10000
+  b_max = total // 5000
+  c_max = total // 1000
 
+  for i in range(a_max):
+    sub_total = total - (i*10000)
+    for j in range(b_max):
+      sub_sub_total = sub_total - (j*5000)
+      for k in range(c_max):
+        sub_sub_sub_total = sub_sub_total - (k*1000)
+        if sub_sub_sub_total == total:
+          result = (i, j, k)
+
+  print(result)
+  if sum(result) != N:
+    result = (-1, -1, -1)
+
+  return result
 
 
 #  if __name__ == '__main__': の分の中の処理は python3 sorts.py とコマンドで呼び出した時に自動的に呼ばれる
 if __name__ == '__main__':
-  s = main2021_02_02(3, 4)
+  s = main2021_02_07(9, 45000)
   print(s)

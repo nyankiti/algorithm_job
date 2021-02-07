@@ -27,11 +27,28 @@ Greedy
 '''
 
 
-def main2021_02_02(a, b):
+def main2021_02_07(N, numbers):
+  numbers = sorted(numbers)
+  print(numbers)
+  a_score = 0
+  b_score = 0
+  for i in range(N):
+    if i%2 == 0:
+      a_score += numbers[i]
+    else:
+      b_score += numbers[i]
+  result = a_score - b_score
+  print(a_score)
+  print(b_score)
+  return result
 
+'''
+sorted(numbers)   並び替えられた結果を返す。
+numbers.sort()   配列自体を並び替えてしまう。
 
+'''
 
 #  if __name__ == '__main__': の分の中の処理は python3 sorts.py とコマンドで呼び出した時に自動的に呼ばれる
 if __name__ == '__main__':
-  s = main2021_02_02(3, 4)
+  s = main2021_02_07(3, (2,7,4))
   print(s)
