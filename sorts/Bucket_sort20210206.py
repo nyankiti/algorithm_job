@@ -45,8 +45,10 @@ def bucket_sort20210206(numbers):
 
 #  if __name__ == '__main__': の分の中の処理は python3 sorts.py とコマンドで呼び出した時に自動的に呼ばれる
 if __name__ == '__main__':
-  s = selection_sort2021_02_06([2,45,64,4,5,78,9])
-  print(s)
-  nums = [random.randint(0,1000) for _ in range(10)]
-  a = bucket_sort20210206(nums)
-  print(a)
+  # s = selection_sort2021_02_06([2,45,64,4,5,78,9])
+  # print(s)
+  # nums = [random.randint(0,1000) for _ in range(10)]
+  # a = bucket_sort20210206(nums)
+  # print(a)
+  for i in range(1): 
+    print(i)

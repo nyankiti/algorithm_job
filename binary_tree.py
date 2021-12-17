@@ -6,8 +6,8 @@
 class Node(object):
     def __init__(self, value: int) -> None:
         self.value = value
-        self.left = None
-        self.right = None
+        self.left: Node = None
+        self.right: Node = None
 
 
 def insert(node: Node, value: int) -> Node:

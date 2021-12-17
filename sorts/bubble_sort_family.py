@@ -43,7 +43,7 @@ def bubble_sort(numbers: List[int]) -> List[int]:
 
   return numbers
 
-# for分が二重なのでBig_O_notarionだと、O(n**2)となる
+# for分が二重なのでBig_O_notationだと、O(n**2)となる
 
 
 # --------------------------------------------------------------------

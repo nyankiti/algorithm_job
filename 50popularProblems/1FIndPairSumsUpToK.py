@@ -28,6 +28,9 @@ def main2(arr, k):
       left += 1
   return False
 
+# k が合計より大きい時に
+
+
 # best solution
 # use hash table
 def main3(arr, k):
@@ -48,7 +51,7 @@ def main3(arr, k):
 
 #the codes in "if __name__ == '__main__': " is called when you excecute "python3 filename.py"
 if __name__ == '__main__':
-  s = main3([4, 5, 1, -3, 6], 11)
+  s = main2([4, 5, 1, -3, 6], 11)
   print(s)
   s2 = main3([4, 5, 1, -3, 6], -2)
   print(s2)
