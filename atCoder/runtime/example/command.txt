@@ -1,0 +1,4 @@
+以下のコマンドを実行すると、testできる
+
+cd atCider/runtime/example
+python3 answer.py < input.txt
