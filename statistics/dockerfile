@@ -4,17 +4,18 @@ FROM continuumio/anaconda3:latest
 RUN apt update && \
     apt install -y build-essential   
 
-# # 追加でインストールしたい python モジュールです
-# RUN pip install astroquery \
+# 追加でインストールしたい python モジュールです
+RUN pip install spotify
 #                 reproject \
 #                 ads
+
 
 # ホスト PC の data フォルダへ繋ぐ入口です
 RUN mkdir /work
 
 # jupyter の起動パラメータを設定します
 EXPOSE 8888
-CMD ["jupyter", "notebook", \
+CMD ["jupyter", "lab", \
      "--port=8888", \
      "--ip=0.0.0.0", \
      "--allow-root", \
