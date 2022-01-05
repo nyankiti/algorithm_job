@@ -1,30 +1,36 @@
 '''
-
+全探索するなら、2^len(arr)通りという莫大な探索が必要
+kadaneのアルゴリズムが良い
 '''
 import random
 
-def main(arr):
-  temp_sum = -100
-  len_arr = len(arr)
-  for i in range(len_arr):
-    for j in range(i+1, len_arr):
-      # if temp_sum < sum(arr[i:j]):
-      #   temp_sum = sum(arr[i:j])
-      temp_sum = max(temp_sum, sum(arr[i:j]))
-  return temp_sum
+# kadane's algorithm
 
-# best solution kadane's algorithm
+
 def maximumSubarray(arr):
-  globalSum = -100
-  localSum = 0
-  for elem in arr:
-    localSum = max(elem, localSum + elem)
-    globalSum = max(globalSum, localSum)
-  return globalSum
+    result, tempSum = 0, 0
+    for num in arr:
+        tempSum += num
+        tempSum = max(tempSum, num)
+        result = max(result, tempSum)
+    return result
 
 
+# brute force
+def bruteForce(arr):
+    result = 0
+    len_arr = len(arr)
+    for i in range(len_arr):
+        temp_sum = 0
+        for j in range(i, len_arr):
+            temp_sum += arr[j]
+            result = max(result, temp_sum)
+    return result
 
-#  if __name__ == '__main__': の分の中の処理は python3 sorts.py とコマンドで呼び出した時に自動的に呼ばれる
+
+    #  if __name__ == '__main__': の分の中の処理は python3 sorts.py とコマンドで呼び出した時に自動的に呼ばれる
 if __name__ == '__main__':
-  s = maximumSubarray([-3, -1, -2])
-  print(s)
+    s = maximumSubarray([2, 3, -6, 4, 2, -8, 3])
+    print(s)
+    s = bruteForce([2, 3, -6, 4, 2, -8, 3])
+    print(s)
