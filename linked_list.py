@@ -1,45 +1,41 @@
 # linked_listとは配列など、インデックス番号のあるデータ群の管理方法である
 
 
-
 # annotationをimportするとクラスメソッドの定義時の引数にそのクラスオブジェクトを入れることを、タイプ指定で書ける
 # from __future__ import annotations
 from typing import Any
 
 # まず、データと次のノードオブジェクトを持つノードのクラスを作る
 # nextには次のノードオブジェクトを指定する
+
+
 class Node(object):
   # 第３引数のNodeはこのクラスオブジェクトということ,デフォルトはNoneで指定しないならばリンクの最終到着点がNoneということになる
-    def __init__(self, data: Any, next_node = None):
+    def __init__(self, data: Any, next_node=None):
         self.data = data
         self.next = next_node
 
 
 class LinkedList(object):
-  # まずリンクの最初であるheadを作る。headには最初のノードオブジェクトを格納する
-  # デフォルトはNoneであり、リンクにデータが入っていないことを示す
     def __init__(self, head=None) -> None:
         self.head = head
 
     def append(self, data: Any) -> None:
-      # まず、新しいデータを格納したノードオブジェクトを作る
         new_node = Node(data)
-        # まだデータが入っていなければheadに新しく追加するノードオブジェクトをリンクさせる
         if self.head is None:
             self.head = new_node
             return
 
-        # データを加える最後のNodeをwhile文を用いて最初のheadから登っていく
         last_node = self.head
         while last_node.next:
             last_node = last_node.next
-        # 最後のノードの後ろに新しいノードをリンクする
+
         last_node.next = new_node
 
+    # 0番目にinsertするメソッド
     def insert(self, data: Any) -> None:
-        # ノードの最初に入れたいときは、既存のheadを新しいノードのポインターにして、新たなheadに加えたノードのデータをリンクする
         new_node = Node(data)
-        # headはデータを持っていないので、headが指すノードオブジェクトを入れ替えてあげるだけで良い
+
         new_node.next = self.head
         self.head = new_node
 
@@ -54,7 +50,6 @@ class LinkedList(object):
         # current_nodeの存在をif current_nodeで確かめている
         # 最初のデータと削除したいデータが一致した場合
         if current_node and current_node.data == data:
-          # 消すcurrent_nodeのリンクを先のノードのリンクに変更してから消す
             self.head = current_node.next
             current_node = None
             return
@@ -73,7 +68,6 @@ class LinkedList(object):
         # 削除したいノードの一つ前のノードと一つ次のノードをつなげる
         previous_node.next = current_node.next
         current_node = None
-
 
     def reverse_iterative(self) -> None:
         previous_node = None
@@ -125,9 +119,6 @@ class LinkedList(object):
 
         self.head = _reverse_even(self.head, None)
 
-
-
-
     def reverse_even(self) -> None:
         def _reverse_even(head: Node, previous_node: Node) -> Optional[Nonde]:
             if head is None:
@@ -149,14 +140,6 @@ class LinkedList(object):
                 return head
 
         self.head = _reverse_even(self.head, None)
-
-
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
