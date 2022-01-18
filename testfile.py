@@ -1,6 +1,7 @@
 # 何かのコードを即興で試したい時に使うファイル
 from typing import List
 
+
 def list_to_int_plus_one(numbers: List[int]) -> int:
     sum_numbers = 0
     # for index, num in enumerate(numbers):
@@ -8,6 +9,7 @@ def list_to_int_plus_one(numbers: List[int]) -> int:
     for index, num in enumerate(reversed(numbers)):
         sum_numbers += num * (10 ** index)
     return sum_numbers + 1
+
 
 def remove_zero(numbers: List[int]) -> None:
     if numbers and numbers[0] == 0:
@@ -17,11 +19,15 @@ def remove_zero(numbers: List[int]) -> None:
 
 
 if __name__ == '__main__':
-    
-    print(list_to_int_plus_one([0,0,0,9,9,9,9]))
 
-    nums = [0,1,0,0,9,9,9,9]
-    remove_zero(nums)
-    print(nums)
-
-
+    money = 300
+    item = (("みかん", 100), ("りんご", 200), ("ぶどう", 300),
+            ("さくらんぼ", 150), ("バナナ", 170), ("りんご", 120))
+    len_item = len(item)
+    for i in range(2 ** len_item):
+        bag = []
+        print("pattern {}: ".format(i), end="")
+        for j in range(len_item):
+            if ((i >> j) & 1):
+                bag.append(item[j][0])
+        print(bag)
