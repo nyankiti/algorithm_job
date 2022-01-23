@@ -42,8 +42,8 @@ RUN pip install git+https://github.com/hinamimi/ac-library-python && \
     pip install git+https://github.com/hinamimi/python-sortedcontainers
 
 # コンテスト補助アプリケーションをインストール
-RUN pip install online-judge-tools==11.3.0
-RUN npm install -g atcoder-cli@2.1.1
+RUN pip install online-judge-tools
+RUN npm install -g atcoder-cli
 
 # atcoder-cliの設定
 RUN acc config-dir && \
