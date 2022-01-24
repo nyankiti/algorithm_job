@@ -10,14 +10,14 @@ class Graph:
         self.graph[src].append(dest)
 
     # traversalをstartする位置を引数に受け取る
-    def dfs_traversal(self, v):
+    def dfs_traversal(self, start):
         # recursiveを用いるのでvisitedはメンバー変数を用いる
-        self.visited[v] = True
-        print(v, end=" ")
+        self.visited[start] = True
+        print(start, end=" ")
 
         # adjはadjacencyの略
         # recur for all adacent vertices
-        for adj in self.graph[v]:
+        for adj in self.graph[start]:
             if not self.visited[adj]:
                 self.dfs_traversal(adj)
 
@@ -55,5 +55,5 @@ if __name__ == "__main__":
 
     graph.dfs_traversal(1)
     print(' ')
-    for num in graph.dfs_traversal_stack(1):
-        print(num, end=" ")
+    # for num in graph.dfs_traversal_stack(1):
+    #     print(num, end=" ")
