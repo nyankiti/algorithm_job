@@ -1,6 +1,6 @@
 def insertion_sort(data):
   # インデックス０は既に整列済みと考える
-    for i in range(1,len(data)):
+    for i in range(1, len(data)):
         select = data[i]
         if data[i-1] > select:
             j = i
@@ -11,6 +11,7 @@ def insertion_sort(data):
                 data[j], data[j-1] = data[j-1], data[j]
                 j -= 1
             data[j] = select
+
 
 def insertion_sort1(data):
     i = len(data)-2
@@ -25,6 +26,23 @@ def insertion_sort1(data):
                 j += 1
         i -= 1
 
+# data = [23, 22, 6, 78, 45, 34, 44, 69, 2, 1223]
+# insertion_sort1(data)
+# print(data)
+
+
+def insertion_sort_20220208(data):
+    for i in range(1, len(data)):
+        selected = data[i]
+        if data[i-1] > selected:
+            j = i
+            data[j], data[j-1] = data[j-1], data[j]
+            j -= 1
+            while j > 0 and data[j-1] > selected:
+                data[j], data[j-1] = data[j-1], data[j]
+                j -= 1
+
+
 data = [23, 22, 6, 78, 45, 34, 44, 69, 2, 1223]
-insertion_sort1(data)
+insertion_sort_20220208(data)
 print(data)
