@@ -1,1 +1,1 @@
-#!/usr/bin python
+from sys import stdin
