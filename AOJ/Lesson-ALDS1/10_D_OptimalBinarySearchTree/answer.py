@@ -1,1 +1,1 @@
-from sys import stdin, maxsize
+from sys import stdin
