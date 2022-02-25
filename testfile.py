@@ -10,3 +10,5 @@ print(numbers)
 
 print(heapq.nlargest(3, numbers))
 print(heapq.nsmallest(3, numbers))
+
+print(int("1.3455"))
