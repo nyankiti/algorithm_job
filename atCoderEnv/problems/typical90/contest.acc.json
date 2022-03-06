@@ -9,13 +9,23 @@
       "id": "typical90_a",
       "label": "001",
       "title": "Yokan Party（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_a"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_a",
+      "directory": {
+        "path": "001",
+        "testdir": "test",
+        "submit": "001.py"
+      }
     },
     {
       "id": "typical90_b",
       "label": "002",
       "title": "Encyclopedia of Parentheses（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_b"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_b",
+      "directory": {
+        "path": "002",
+        "testdir": "test",
+        "submit": "002.py"
+      }
     },
     {
       "id": "typical90_c",
@@ -221,7 +231,12 @@
       "id": "typical90_ag",
       "label": "033",
       "title": "Not Too Bright（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ag"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ag",
+      "directory": {
+        "path": "033",
+        "testdir": "test",
+        "submit": "033.py"
+      }
     },
     {
       "id": "typical90_ah",
@@ -353,7 +368,12 @@
       "id": "typical90_bc",
       "label": "055",
       "title": "Select 5（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bc"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bc",
+      "directory": {
+        "path": "055",
+        "testdir": "test",
+        "submit": "055.py"
+      }
     },
     {
       "id": "typical90_bd",
@@ -389,7 +409,12 @@
       "id": "typical90_bi",
       "label": "061",
       "title": "Deck（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bi"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bi",
+      "directory": {
+        "path": "061",
+        "testdir": "test",
+        "submit": "061.py"
+      }
     },
     {
       "id": "typical90_bj",
@@ -425,7 +450,12 @@
       "id": "typical90_bo",
       "label": "067",
       "title": "Base 8 to 9（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bo"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bo",
+      "directory": {
+        "path": "067",
+        "testdir": "test",
+        "submit": "067.py"
+      }
     },
     {
       "id": "typical90_bp",
@@ -491,7 +521,12 @@
       "id": "typical90_bz",
       "label": "078",
       "title": "Easy Graph Problem（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bz"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bz",
+      "directory": {
+        "path": "078",
+        "testdir": "test",
+        "submit": "078.py"
+      }
     },
     {
       "id": "typical90_ca",
