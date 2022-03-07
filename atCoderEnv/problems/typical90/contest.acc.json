@@ -9,12 +9,7 @@
       "id": "typical90_a",
       "label": "001",
       "title": "Yokan Party（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_a",
-      "directory": {
-        "path": "001",
-        "testdir": "test",
-        "submit": "001.py"
-      }
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_a"
     },
     {
       "id": "typical90_b",
@@ -60,7 +55,12 @@
       "id": "typical90_g",
       "label": "007",
       "title": "CP Classes（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_g"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_g",
+      "directory": {
+        "path": "007",
+        "testdir": "test",
+        "submit": "007.py"
+      }
     },
     {
       "id": "typical90_h",
@@ -107,7 +107,12 @@
       "id": "typical90_n",
       "label": "014",
       "title": "We Used to Sing a Song Together（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_n"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_n",
+      "directory": {
+        "path": "014",
+        "testdir": "test",
+        "submit": "014.py"
+      }
     },
     {
       "id": "typical90_o",
@@ -119,7 +124,12 @@
       "id": "typical90_p",
       "label": "016",
       "title": "Minimum Coins（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_p"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_p",
+      "directory": {
+        "path": "016",
+        "testdir": "test",
+        "submit": "016.py"
+      }
     },
     {
       "id": "typical90_q",
@@ -131,7 +141,12 @@
       "id": "typical90_r",
       "label": "018",
       "title": "Statue of Chokudai（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_r"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_r",
+      "directory": {
+        "path": "018",
+        "testdir": "test",
+        "submit": "018.py"
+      }
     },
     {
       "id": "typical90_s",
