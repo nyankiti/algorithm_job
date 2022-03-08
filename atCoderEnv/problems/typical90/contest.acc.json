@@ -158,7 +158,12 @@
       "id": "typical90_t",
       "label": "020",
       "title": "Log Inequality（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_t"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_t",
+      "directory": {
+        "path": "020",
+        "testdir": "test",
+        "submit": "020.py"
+      }
     },
     {
       "id": "typical90_u",
@@ -240,7 +245,12 @@
       "id": "typical90_af",
       "label": "032",
       "title": "AtCoder Ekiden（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_af"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_af",
+      "directory": {
+        "path": "032",
+        "testdir": "test",
+        "submit": "032.py"
+      }
     },
     {
       "id": "typical90_ag",
@@ -281,7 +291,12 @@
       "id": "typical90_al",
       "label": "038",
       "title": "Large LCM（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_al"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_al",
+      "directory": {
+        "path": "038",
+        "testdir": "test",
+        "submit": "038.py"
+      }
     },
     {
       "id": "typical90_am",
