@@ -192,7 +192,12 @@
       "id": "typical90_x",
       "label": "024",
       "title": "Select +／- One（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_x"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_x",
+      "directory": {
+        "path": "024",
+        "testdir": "test",
+        "submit": "024.py"
+      }
     },
     {
       "id": "typical90_y",
@@ -332,7 +337,12 @@
       "id": "typical90_ar",
       "label": "044",
       "title": "Shift and Swapping（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ar"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ar",
+      "directory": {
+        "path": "044",
+        "testdir": "test",
+        "submit": "044.py"
+      }
     },
     {
       "id": "typical90_as",
@@ -344,7 +354,12 @@
       "id": "typical90_at",
       "label": "046",
       "title": "I Love 46（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_at"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_at",
+      "directory": {
+        "path": "046",
+        "testdir": "test",
+        "submit": "046.py"
+      }
     },
     {
       "id": "typical90_au",
