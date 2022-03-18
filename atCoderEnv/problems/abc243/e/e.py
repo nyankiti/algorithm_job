@@ -18,7 +18,9 @@ class Graph:
         for edge in self.graph:
             # 消したいedgeを除いたgraphを作る
             temp_graph = [_edge for _edge in self.graph if edge != edge]
+            parent = []
             for vertices in range(1, self.V+1):
+                self.find(parent, vertices)
 
         return deletion_count
 
