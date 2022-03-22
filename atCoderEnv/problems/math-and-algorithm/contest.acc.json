@@ -31,19 +31,34 @@
       "id": "math_and_algorithm_c",
       "label": "003",
       "title": "Sum of N Integers",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_c"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_c",
+      "directory": {
+        "path": "003",
+        "testdir": "test",
+        "submit": "003.py"
+      }
     },
     {
       "id": "math_and_algorithm_d",
       "label": "004",
       "title": "Product of 3 Integers",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_d"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_d",
+      "directory": {
+        "path": "004",
+        "testdir": "test",
+        "submit": "004.py"
+      }
     },
     {
       "id": "math_and_algorithm_e",
       "label": "005",
       "title": "Modulo 100",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_e"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_e",
+      "directory": {
+        "path": "005",
+        "testdir": "test",
+        "submit": "005.py"
+      }
     },
     {
       "id": "math_and_algorithm_f",
@@ -97,12 +112,7 @@
       "id": "math_and_algorithm_n",
       "label": "014",
       "title": "Factorization",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_n",
-      "directory": {
-        "path": "014",
-        "testdir": "test",
-        "submit": "014.py"
-      }
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_n"
     },
     {
       "id": "math_and_algorithm_o",
@@ -114,23 +124,13 @@
       "id": "math_and_algorithm_p",
       "label": "016",
       "title": "Greatest Common Divisor of N Integers",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_p",
-      "directory": {
-        "path": "016",
-        "testdir": "test",
-        "submit": "016.py"
-      }
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_p"
     },
     {
       "id": "math_and_algorithm_q",
       "label": "017",
       "title": "Least Common Multiple of N Integers",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_q",
-      "directory": {
-        "path": "017",
-        "testdir": "test",
-        "submit": "017.py"
-      }
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_q"
     },
     {
       "id": "math_and_algorithm_r",
