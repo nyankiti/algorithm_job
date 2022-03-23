@@ -64,31 +64,56 @@
       "id": "math_and_algorithm_f",
       "label": "006",
       "title": "Print 2N+3",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_f"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_f",
+      "directory": {
+        "path": "006",
+        "testdir": "test",
+        "submit": "006.py"
+      }
     },
     {
       "id": "math_and_algorithm_g",
       "label": "007",
       "title": "Number of Multiples 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_g"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_g",
+      "directory": {
+        "path": "007",
+        "testdir": "test",
+        "submit": "007.py"
+      }
     },
     {
       "id": "math_and_algorithm_h",
       "label": "008",
       "title": "Brute Force 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_h"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_h",
+      "directory": {
+        "path": "008",
+        "testdir": "test",
+        "submit": "008.py"
+      }
     },
     {
       "id": "math_and_algorithm_i",
       "label": "009",
       "title": "Brute Force 2",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_i"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_i",
+      "directory": {
+        "path": "009",
+        "testdir": "test",
+        "submit": "009.py"
+      }
     },
     {
       "id": "math_and_algorithm_j",
       "label": "010",
       "title": "Factorial",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_j"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_j",
+      "directory": {
+        "path": "010",
+        "testdir": "test",
+        "submit": "010.py"
+      }
     },
     {
       "id": "math_and_algorithm_k",
