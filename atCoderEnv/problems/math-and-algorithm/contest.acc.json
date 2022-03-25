@@ -119,61 +119,111 @@
       "id": "math_and_algorithm_k",
       "label": "011",
       "title": "Print Prime Numbers",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_k"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_k",
+      "directory": {
+        "path": "011",
+        "testdir": "test",
+        "submit": "011.py"
+      }
     },
     {
       "id": "math_and_algorithm_l",
       "label": "012",
       "title": "Primality Test",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_l"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_l",
+      "directory": {
+        "path": "012",
+        "testdir": "test",
+        "submit": "012.py"
+      }
     },
     {
       "id": "math_and_algorithm_m",
       "label": "013",
       "title": "Divisor Enumeration",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_m"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_m",
+      "directory": {
+        "path": "013",
+        "testdir": "test",
+        "submit": "013.py"
+      }
     },
     {
       "id": "math_and_algorithm_n",
       "label": "014",
       "title": "Factorization",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_n"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_n",
+      "directory": {
+        "path": "014",
+        "testdir": "test",
+        "submit": "014.py"
+      }
     },
     {
       "id": "math_and_algorithm_o",
       "label": "015",
       "title": "Greatest Common Divisor",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_o"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_o",
+      "directory": {
+        "path": "015",
+        "testdir": "test",
+        "submit": "015.py"
+      }
     },
     {
       "id": "math_and_algorithm_p",
       "label": "016",
       "title": "Greatest Common Divisor of N Integers",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_p"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_p",
+      "directory": {
+        "path": "016",
+        "testdir": "test",
+        "submit": "016.py"
+      }
     },
     {
       "id": "math_and_algorithm_q",
       "label": "017",
       "title": "Least Common Multiple of N Integers",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_q"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_q",
+      "directory": {
+        "path": "017",
+        "testdir": "test",
+        "submit": "017.py"
+      }
     },
     {
       "id": "math_and_algorithm_r",
       "label": "018",
       "title": "Convenience Store 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_r"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_r",
+      "directory": {
+        "path": "018",
+        "testdir": "test",
+        "submit": "018.py"
+      }
     },
     {
       "id": "math_and_algorithm_s",
       "label": "019",
       "title": "Choose Cards 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_s"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_s",
+      "directory": {
+        "path": "019",
+        "testdir": "test",
+        "submit": "019.py"
+      }
     },
     {
       "id": "math_and_algorithm_t",
       "label": "020",
       "title": "Choose Cards 2",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_t"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_t",
+      "directory": {
+        "path": "020",
+        "testdir": "test",
+        "submit": "020.py"
+      }
     },
     {
       "id": "math_and_algorithm_u",
