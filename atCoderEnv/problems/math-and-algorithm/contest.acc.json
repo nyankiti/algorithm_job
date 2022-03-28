@@ -229,31 +229,56 @@
       "id": "math_and_algorithm_u",
       "label": "021",
       "title": "Combination Easy",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_u"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_u",
+      "directory": {
+        "path": "021",
+        "testdir": "test",
+        "submit": "021.py"
+      }
     },
     {
       "id": "math_and_algorithm_v",
       "label": "022",
       "title": "Choose Cards 3",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_v"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_v",
+      "directory": {
+        "path": "022",
+        "testdir": "test",
+        "submit": "022.py"
+      }
     },
     {
       "id": "math_and_algorithm_w",
       "label": "023",
       "title": "Dice Expectation",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_w"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_w",
+      "directory": {
+        "path": "023",
+        "testdir": "test",
+        "submit": "023.py"
+      }
     },
     {
       "id": "math_and_algorithm_x",
       "label": "024",
       "title": "Answer Exam Randomly",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_x"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_x",
+      "directory": {
+        "path": "024",
+        "testdir": "test",
+        "submit": "024.py"
+      }
     },
     {
       "id": "math_and_algorithm_y",
       "label": "025",
       "title": "Jiro's Vacation",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_y"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_y",
+      "directory": {
+        "path": "025",
+        "testdir": "test",
+        "submit": "025.py"
+      }
     },
     {
       "id": "math_and_algorithm_z",
