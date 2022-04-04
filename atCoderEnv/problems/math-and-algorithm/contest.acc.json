@@ -284,37 +284,67 @@
       "id": "math_and_algorithm_z",
       "label": "026",
       "title": "Coin Gacha",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_z"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_z",
+      "directory": {
+        "path": "026",
+        "testdir": "test",
+        "submit": "026.py"
+      }
     },
     {
       "id": "math_and_algorithm_aa",
       "label": "027",
       "title": "Sorting",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_aa"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_aa",
+      "directory": {
+        "path": "027",
+        "testdir": "test",
+        "submit": "027.py"
+      }
     },
     {
       "id": "dp_a",
       "label": "028",
       "title": "Frog 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/dp_a"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/dp_a",
+      "directory": {
+        "path": "028",
+        "testdir": "test",
+        "submit": "028.py"
+      }
     },
     {
       "id": "math_and_algorithm_ab",
       "label": "029",
       "title": "Climb Stairs",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ab"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ab",
+      "directory": {
+        "path": "029",
+        "testdir": "test",
+        "submit": "029.py"
+      }
     },
     {
       "id": "dp_d",
       "label": "030",
       "title": "Knapsack 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/dp_d"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/dp_d",
+      "directory": {
+        "path": "030",
+        "testdir": "test",
+        "submit": "030.py"
+      }
     },
     {
       "id": "math_and_algorithm_ac",
       "label": "031",
       "title": "Taro's Vacation",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ac"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ac",
+      "directory": {
+        "path": "031",
+        "testdir": "test",
+        "submit": "031.py"
+      }
     },
     {
       "id": "math_and_algorithm_ad",
