@@ -3,7 +3,8 @@ import math
 
 N = int(stdin.readline())
 
-root_N = math.ceil(N ** (1/3)) // 2
+
+root_N = math.ceil(N ** (1/3))
 # print(root_N)
 if root_N > 0:
     for i in range(root_N, N+1):
