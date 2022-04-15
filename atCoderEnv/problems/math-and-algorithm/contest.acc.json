@@ -350,37 +350,67 @@
       "id": "math_and_algorithm_ad",
       "label": "032",
       "title": "Binary Search",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ad"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ad",
+      "directory": {
+        "path": "032",
+        "testdir": "test",
+        "submit": "032.py"
+      }
     },
     {
       "id": "math_and_algorithm_ae",
       "label": "033",
       "title": "Distance",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ae"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ae",
+      "directory": {
+        "path": "033",
+        "testdir": "test",
+        "submit": "033.py"
+      }
     },
     {
       "id": "math_and_algorithm_af",
       "label": "034",
       "title": "Nearest Points",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_af"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_af",
+      "directory": {
+        "path": "034",
+        "testdir": "test",
+        "submit": "034.py"
+      }
     },
     {
       "id": "math_and_algorithm_ag",
       "label": "035",
       "title": "Two Circles",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ag"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ag",
+      "directory": {
+        "path": "035",
+        "testdir": "test",
+        "submit": "035.py"
+      }
     },
     {
       "id": "abc168_c",
       "label": "036",
       "title": ": (Colon)",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc168_c"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc168_c",
+      "directory": {
+        "path": "036",
+        "testdir": "test",
+        "submit": "036.py"
+      }
     },
     {
       "id": "math_and_algorithm_ah",
       "label": "037",
       "title": "Intersection",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ah"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ah",
+      "directory": {
+        "path": "037",
+        "testdir": "test",
+        "submit": "037.py"
+      }
     },
     {
       "id": "math_and_algorithm_ai",
