@@ -416,55 +416,100 @@
       "id": "math_and_algorithm_ai",
       "label": "038",
       "title": "How Many Guests?",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ai"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ai",
+      "directory": {
+        "path": "038",
+        "testdir": "test",
+        "submit": "038.py"
+      }
     },
     {
       "id": "math_and_algorithm_aj",
       "label": "039",
       "title": "Snowy Days",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_aj"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_aj",
+      "directory": {
+        "path": "039",
+        "testdir": "test",
+        "submit": "039.py"
+      }
     },
     {
       "id": "math_and_algorithm_ak",
       "label": "040",
       "title": "Travel",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ak"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ak",
+      "directory": {
+        "path": "040",
+        "testdir": "test",
+        "submit": "040.py"
+      }
     },
     {
       "id": "math_and_algorithm_al",
       "label": "041",
       "title": "Convenience Store 2",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_al"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_al",
+      "directory": {
+        "path": "041",
+        "testdir": "test",
+        "submit": "041.py"
+      }
     },
     {
       "id": "abc172_d",
       "label": "042",
       "title": "Sum of Divisors",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc172_d"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc172_d",
+      "directory": {
+        "path": "042",
+        "testdir": "test",
+        "submit": "042.py"
+      }
     },
     {
       "id": "math_and_algorithm_am",
       "label": "043",
       "title": "Is It Connected?",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_am"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_am",
+      "directory": {
+        "path": "043",
+        "testdir": "test",
+        "submit": "043.py"
+      }
     },
     {
       "id": "math_and_algorithm_an",
       "label": "044",
       "title": "Shortest Path Problem",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_an"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_an",
+      "directory": {
+        "path": "044",
+        "testdir": "test",
+        "submit": "044.py"
+      }
     },
     {
       "id": "typical90_bz",
       "label": "045",
       "title": "Easy Graph Problem（★2）",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/typical90_bz"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/typical90_bz",
+      "directory": {
+        "path": "045",
+        "testdir": "test",
+        "submit": "045.py"
+      }
     },
     {
       "id": "abc007_3",
       "label": "046",
       "title": "幅優先探索",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc007_3"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc007_3",
+      "directory": {
+        "path": "046",
+        "testdir": "test",
+        "submit": "046.py"
+      }
     },
     {
       "id": "math_and_algorithm_ao",
