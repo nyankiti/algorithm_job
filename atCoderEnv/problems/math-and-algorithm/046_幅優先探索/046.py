@@ -19,6 +19,7 @@ def main():
     graph = [[-1]*(C+1) for _ in range(R+1)]
     graph[start_x][start_y] = 0
 
+    # 幅優先探索
     dq = deque()
     dq.append((start_x, start_y))
 

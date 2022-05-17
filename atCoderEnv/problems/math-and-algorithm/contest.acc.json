@@ -515,25 +515,45 @@
       "id": "math_and_algorithm_ao",
       "label": "047",
       "title": "Bipartite Graph",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ao"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ao",
+      "directory": {
+        "path": "047",
+        "testdir": "test",
+        "submit": "047.py"
+      }
     },
     {
       "id": "arc084_b",
       "label": "048",
       "title": "Small Multiple",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/arc084_b"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/arc084_b",
+      "directory": {
+        "path": "048",
+        "testdir": "test",
+        "submit": "048.py"
+      }
     },
     {
       "id": "math_and_algorithm_ap",
       "label": "049",
       "title": "Fibonacci Easy (mod 1000000007)",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ap"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ap",
+      "directory": {
+        "path": "049",
+        "testdir": "test",
+        "submit": "049.py"
+      }
     },
     {
       "id": "math_and_algorithm_aq",
       "label": "050",
       "title": "Power",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_aq"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_aq",
+      "directory": {
+        "path": "050",
+        "testdir": "test",
+        "submit": "050.py"
+      }
     },
     {
       "id": "math_and_algorithm_ar",
