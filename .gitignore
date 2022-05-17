@@ -2,3 +2,6 @@
 sakaiLectureSrc/
 .ipynb_checkpoints/
 .cache
+
+# cppのデフォルトの実行ファイル名
+a.out
