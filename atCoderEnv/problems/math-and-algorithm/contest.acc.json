@@ -559,49 +559,89 @@
       "id": "math_and_algorithm_ar",
       "label": "051",
       "title": "Combination Hard",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ar"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ar",
+      "directory": {
+        "path": "051",
+        "testdir": "test",
+        "submit": "051.py"
+      }
     },
     {
       "id": "abc145_d",
       "label": "052",
       "title": "Knight",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc145_d"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc145_d",
+      "directory": {
+        "path": "052",
+        "testdir": "test",
+        "submit": "052.py"
+      }
     },
     {
       "id": "math_and_algorithm_as",
       "label": "053",
       "title": "Sum of 4^N",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_as"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_as",
+      "directory": {
+        "path": "053",
+        "testdir": "test",
+        "submit": "053.py"
+      }
     },
     {
       "id": "math_and_algorithm_at",
       "label": "054",
       "title": "Fibonacci Hard (mod 1000000000)",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_at"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_at",
+      "directory": {
+        "path": "054",
+        "testdir": "test",
+        "submit": "054.py"
+      }
     },
     {
       "id": "math_and_algorithm_au",
       "label": "055",
       "title": "Recurrence Formula 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_au"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_au",
+      "directory": {
+        "path": "055",
+        "testdir": "test",
+        "submit": "055.py"
+      }
     },
     {
       "id": "math_and_algorithm_av",
       "label": "056",
       "title": "Recurrence Formula 2",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_av"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_av",
+      "directory": {
+        "path": "056",
+        "testdir": "test",
+        "submit": "056.py"
+      }
     },
     {
       "id": "math_and_algorithm_aw",
       "label": "057",
       "title": "Domino Tiling",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_aw"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_aw",
+      "directory": {
+        "path": "057",
+        "testdir": "test",
+        "submit": "057.py"
+      }
     },
     {
       "id": "math_and_algorithm_ax",
       "label": "058",
       "title": "Move on Squares 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ax"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ax",
+      "directory": {
+        "path": "058",
+        "testdir": "test",
+        "submit": "058.py"
+      }
     },
     {
       "id": "math_and_algorithm_ay",
