@@ -647,43 +647,78 @@
       "id": "math_and_algorithm_ay",
       "label": "059",
       "title": "Power of Two",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ay"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ay",
+      "directory": {
+        "path": "059",
+        "testdir": "test",
+        "submit": "059.py"
+      }
     },
     {
       "id": "math_and_algorithm_az",
       "label": "060",
       "title": "Stones Game 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_az"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_az",
+      "directory": {
+        "path": "060",
+        "testdir": "test",
+        "submit": "060.py"
+      }
     },
     {
       "id": "math_and_algorithm_ba",
       "label": "061",
       "title": "Stones Game 2",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ba"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ba",
+      "directory": {
+        "path": "061",
+        "testdir": "test",
+        "submit": "061.py"
+      }
     },
     {
       "id": "abc167_d",
       "label": "062",
       "title": "Teleporter",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc167_d"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc167_d",
+      "directory": {
+        "path": "062",
+        "testdir": "test",
+        "submit": "062.py"
+      }
     },
     {
       "id": "math_and_algorithm_bb",
       "label": "063",
       "title": "Move on Squares 2",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bb"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bb",
+      "directory": {
+        "path": "063",
+        "testdir": "test",
+        "submit": "063.py"
+      }
     },
     {
       "id": "math_and_algorithm_bc",
       "label": "064",
       "title": "All Zero",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bc"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bc",
+      "directory": {
+        "path": "064",
+        "testdir": "test",
+        "submit": "064.py"
+      }
     },
     {
       "id": "panasonic2020_b",
       "label": "065",
       "title": "Bishop",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/panasonic2020_b"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/panasonic2020_b",
+      "directory": {
+        "path": "065",
+        "testdir": "test",
+        "submit": "065.py"
+      }
     },
     {
       "id": "math_and_algorithm_bd",
