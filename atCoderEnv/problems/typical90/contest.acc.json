@@ -9,7 +9,12 @@
       "id": "typical90_a",
       "label": "001",
       "title": "Yokan Party（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_a"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_a",
+      "directory": {
+        "path": "001",
+        "testdir": "test",
+        "submit": "001.py"
+      }
     },
     {
       "id": "typical90_b",
@@ -26,7 +31,12 @@
       "id": "typical90_c",
       "label": "003",
       "title": "Longest Circular Road（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_c"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_c",
+      "directory": {
+        "path": "003",
+        "testdir": "test",
+        "submit": "003.py"
+      }
     },
     {
       "id": "typical90_d",
@@ -66,7 +76,12 @@
       "id": "typical90_h",
       "label": "008",
       "title": "AtCounter（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_h"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_h",
+      "directory": {
+        "path": "008",
+        "testdir": "test",
+        "submit": "008.py"
+      }
     },
     {
       "id": "typical90_i",
@@ -95,7 +110,12 @@
       "id": "typical90_l",
       "label": "012",
       "title": "Red Painting（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_l"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_l",
+      "directory": {
+        "path": "012",
+        "testdir": "test",
+        "submit": "012.py"
+      }
     },
     {
       "id": "typical90_m",

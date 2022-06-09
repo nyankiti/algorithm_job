@@ -10,36 +10,29 @@ if N % 2 == 1:
 # 2 ^ N 通りなので、bit全探索する
 
 
-def check_valid_parentheses(parentheses: deque):
-    temp_dq = parentheses.copy()
-    check_dq = deque()
-    while temp_dq:
-        poped = temp_dq.popleft()
-        if poped == ")":
-            if check_dq:
-                check_dq_popped = check_dq.pop()
-                if check_dq_popped == "(":
-                    continue
-                else:
-                    # check_dq.append(check_dq_popped)
-                    #  ")"が連続してcheck_dqに入る場合、正しいparenthesesでないことが確定するので、Falseをreturnする
-                    return False
-            else:
-                # check_dq.append(poped)
-                return False
-        else:
-            check_dq.append(poped)
+def check_valid_parentheses(parentheses):
+    judge_num = 0
+    for el in parentheses:
+        if el == "(":
+            judge_num += 1
+        elif el == ")":
+            judge_num -= 1
 
-    return False if check_dq else True
+        if judge_num < 0:
+            return False
+    if judge_num == 0:
+        return True
+    else:
+        return False
 
 
 for i in range(2 ** N):
-    dq = deque()
+    canditate = ["" for _ in range(N)]
     for j in range(N):
         if ((i >> j) & 1):
-            dq.appendleft(")")
+            canditate[N - j - 1] = ")"
         else:
-            dq.appendleft("(")
+            canditate[N - j - 1] = "("
 
-    if check_valid_parentheses(dq):
-        print("".join(dq))
+    if check_valid_parentheses(canditate):
+        print("".join(canditate))
