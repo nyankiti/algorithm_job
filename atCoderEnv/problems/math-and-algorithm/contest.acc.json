@@ -724,37 +724,67 @@
       "id": "math_and_algorithm_bd",
       "label": "066",
       "title": "Three Cards",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bd"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bd",
+      "directory": {
+        "path": "066",
+        "testdir": "test",
+        "submit": "066.py"
+      }
     },
     {
       "id": "typical90_d",
       "label": "067",
       "title": "Cross Sum（★2）",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/typical90_d"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/typical90_d",
+      "directory": {
+        "path": "067",
+        "testdir": "test",
+        "submit": "067.py"
+      }
     },
     {
       "id": "math_and_algorithm_be",
       "label": "068",
       "title": "Number of Multiples 2",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_be"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_be",
+      "directory": {
+        "path": "068",
+        "testdir": "test",
+        "submit": "068.py"
+      }
     },
     {
       "id": "abc178_b",
       "label": "069",
       "title": "Product Max",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc178_b"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc178_b",
+      "directory": {
+        "path": "069",
+        "testdir": "test",
+        "submit": "069.py"
+      }
     },
     {
       "id": "abc075_d",
       "label": "070",
       "title": "Axis-Parallel Rectangle",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc075_d"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc075_d",
+      "directory": {
+        "path": "070",
+        "testdir": "test",
+        "submit": "070.py"
+      }
     },
     {
       "id": "math_and_algorithm_bf",
       "label": "071",
       "title": "Linear Programming",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bf"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bf",
+      "directory": {
+        "path": "071",
+        "testdir": "test",
+        "submit": "071.py"
+      }
     },
     {
       "id": "jsc2021_c",
