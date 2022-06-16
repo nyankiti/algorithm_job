@@ -845,55 +845,100 @@
       "id": "math_and_algorithm_bj",
       "label": "077",
       "title": "Distance Sum",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bj"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bj",
+      "directory": {
+        "path": "077",
+        "testdir": "test",
+        "submit": "077.py"
+      }
     },
     {
       "id": "math_and_algorithm_bk",
       "label": "078",
       "title": "Difference Optimization 1",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bk"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bk",
+      "directory": {
+        "path": "078",
+        "testdir": "test",
+        "submit": "078.py"
+      }
     },
     {
       "id": "abc139_d",
       "label": "079",
       "title": "ModSum",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc139_d"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/abc139_d",
+      "directory": {
+        "path": "079",
+        "testdir": "test",
+        "submit": "079.py"
+      }
     },
     {
       "id": "math_and_algorithm_bl",
       "label": "080",
       "title": "Difference Optimization 2",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bl"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bl",
+      "directory": {
+        "path": "080",
+        "testdir": "test",
+        "submit": "080.py"
+      }
     },
     {
       "id": "math_and_algorithm_bm",
       "label": "081",
       "title": "Bill Changing Problem",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bm"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bm",
+      "directory": {
+        "path": "081",
+        "testdir": "test",
+        "submit": "081.py"
+      }
     },
     {
       "id": "math_and_algorithm_bn",
       "label": "082",
       "title": "Interval Scheduling Problem",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bn"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bn",
+      "directory": {
+        "path": "082",
+        "testdir": "test",
+        "submit": "082.py"
+      }
     },
     {
       "id": "typical90_n",
       "label": "083",
       "title": "We Used to Sing a Song Together（★3）",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/typical90_n"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/typical90_n",
+      "directory": {
+        "path": "083",
+        "testdir": "test",
+        "submit": "083.py"
+      }
     },
     {
       "id": "panasonic2020_c",
       "label": "084",
       "title": "Sqrt Inequality",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/panasonic2020_c"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/panasonic2020_c",
+      "directory": {
+        "path": "084",
+        "testdir": "test",
+        "submit": "084.py"
+      }
     },
     {
       "id": "math_and_algorithm_bo",
       "label": "085",
       "title": "Two Conditions",
-      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bo"
+      "url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_bo",
+      "directory": {
+        "path": "085",
+        "testdir": "test",
+        "submit": "085.py"
+      }
     },
     {
       "id": "math_and_algorithm_bp",
