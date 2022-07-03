@@ -1,15 +1,23 @@
-#!/usr/bin python
-N = int(input())
-S = input()
+from sys import stdin
+from collections import deque
 
-result = "0"
 
-for i, char in enumerate(S):
-    dest_index = result.find(str(i))
-    if char == "L":
-        result = result[:i-1] + str(i+1) + result[i-1:]
-    elif char == "R":
-        result = result[:i] + str(i+1) + result[i:]
+def main():
+    N = int(stdin.readline())
+    S = input()
 
-# print(" ".join(map(str, a)))
-print(result)
+    left = deque()
+    right = deque()
+
+    for i, s in enumerate(S):
+        if s == "L":
+            right.append(i)
+        elif s == "R":
+            left.append(i)
+
+    right.reverse()
+    print(*left, i+1, *right)
+
+
+if __name__ == '__main__':
+    main()

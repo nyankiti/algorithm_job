@@ -1,11 +1,12 @@
-from sys import stdin, exit
+from sys import stdin
 
 
 class UnionFind:
+
     def __init__(self, n) -> None:
         self.n = n
-        self.parent = [-1]*n
-        self.rank = [1]*n
+        self.parent = [-1] * n
+        self.rank = [1] * n
 
     def unite(self, x, y) -> bool:
         x_root = self.find(x)
@@ -15,10 +16,10 @@ class UnionFind:
             return False
 
         # rankの小さい方の親を大きい方の親につなげる(yを親とするので、xが小さくなるようにswap)
-        if(self.rank[x_root] > self.rank[y_root]):
+        if (self.rank[x_root] > self.rank[y_root]):
             x_root, y_root = y_root, x_root
         # 同じランクの木をマージするときはrankが上がる。(その他の場合は木の枝が増えるだけで、rankは増えない。)
-        if(self.rank[x_root] == self.rank[y_root]):
+        if (self.rank[x_root] == self.rank[y_root]):
             self.rank[y_root] += 1
         self.parent[x_root] = y_root
         return True
@@ -34,12 +35,12 @@ class UnionFind:
 
 def judge():
     N, M = map(int, stdin.readline().split())
-    counter = [0]*N
+    counter = [0] * N
     uf = UnionFind(N)
 
     for _ in range(M):
         A, B = map(int, stdin.readline().split())
-        A, B = A-1, B-1
+        A, B = A - 1, B - 1
 
         if uf.find(A) == uf.find(B):
             return False
