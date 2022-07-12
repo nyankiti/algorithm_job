@@ -42,7 +42,12 @@
       "id": "abc233_d",
       "label": "D",
       "title": "Count Interval",
-      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_d"
+      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "d.py"
+      }
     },
     {
       "id": "abc233_e",

@@ -1,5 +1,6 @@
 from sys import stdin
 from collections import defaultdict
+import copy
 
 
 def main():
@@ -7,11 +8,14 @@ def main():
     *A, = map(int, stdin.readline().split())
     Q = int(stdin.readline())
 
-    # カウンターの階差を作
-    kaisa = [defaultdict(int) for _ in range(N+1)]
-    for i, a in enumerate(A):
-        for j in range(i, N):
-            kaisa[j+1][a] += 1
+    # カウンターの階差を作る
+    d = defaultdict(int)
+    kaisa = [d]
+    for a in A:
+        temp_d = copy.deepcopy(kaisa[-1])
+        temp_d[a] += 1
+        kaisa.append(temp_d)
+
     # for di in kaisa:
     #     print(di)
 

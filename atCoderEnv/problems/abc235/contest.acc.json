@@ -42,7 +42,12 @@
       "id": "abc235_d",
       "label": "D",
       "title": "Multiply and Rotate",
-      "url": "https://atcoder.jp/contests/abc235/tasks/abc235_d"
+      "url": "https://atcoder.jp/contests/abc235/tasks/abc235_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "d.py"
+      }
     },
     {
       "id": "abc235_e",

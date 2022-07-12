@@ -21,6 +21,10 @@ def main():
     dp = [[0] * (K+1) for _ in range(N+1)]
     dp[0][0] = 1  # 全て0の場合
 
+    # print("dp")
+    # for row in dp:
+    #     print(row)
+
     for i in range(N):
         for j in range(K):
             for k in range(1, M+1):
@@ -28,10 +32,14 @@ def main():
                     break
                 dp[i+1][j+k] += dp[i][j]
                 dp[i+1][j+k] %= MOD
+            # print("dp", i, j)
+            # for row in dp:
+            #     print(row)
+
     print(sum(dp[-1]) % MOD)
 
-    for row in dp:
-        print(row)
+    # for row in dp:
+    #     print(row)
 
 
 if __name__ == '__main__':

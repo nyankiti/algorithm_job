@@ -1,54 +1,50 @@
+from itertools import count
 from sys import stdin
 from collections import deque
 
-deq = deque()
-n = int(stdin.readline())
-*A, = map(int, stdin.readline().split())
 
+def main():
+    N = int(stdin.readline())
+    *A, = map(int, stdin.readline().split())
 
-def revive_memo(deq, memo):
-    if len(deq) == 0:
-        return
+    dq = deque()
 
-    poped = deq.pop()
-    deq.append(poped)
-
+    prev_val = -1
+    prev_prev_val = -1
     count = 1
-    for i in range(1, len(deq)):
-        if deq[i-1] == deq[i]:
+    for a in A:
+        if a == prev_val:
             count += 1
+            if count == a:
+                for _ in range(count-1):
+                    dq.pop()
+                prev_val = prev_prev_val
+
+                # print("HUHUHU", dq)
+                # 球が消えた際に、下で連続しているcountを数える
+                count = 0
+                if len(dq) > 1:
+                    for i in range(1, len(dq)+1):
+                        if dq[-i] == prev_val:
+                            count += 1
+                        else:
+                            prev_prev_val = dq[-i]
+                            break
+                else:
+                    count = 1
+                # print("next_count", count)
+
+            else:
+                dq.append(a)
         else:
+            dq.append(a)
             count = 1
-    for i in range(count):
-        memo.append(poped)
+            prev_prev_val = prev_val
+            prev_val = a
+
+        # print(dq)
+        print(len(dq))
 
 
-
-
-deq.append(A[0])
-memo = [A[0]]
-
-print(len(deq))
-
-for a in A[1:]:
-    poped = deq.pop()
-    deq.append(poped)
-    deq.append(a)
-
-    if a == poped:
-        memo.append(a)
-        # 次に入れる数が直前の数と一致した場合
-        if a == len(memo):
-            # memoの分だけdeqの中身が消える
-            for i in range(len(memo)):
-                deq.pop()
-            # 中身を消した後、memoを消した直前の数字のものに復活させる
-            memo.clear()
-            revive_memo(deq, memo)
-
-    else:
-        # 連続が終了するので、memoをクリアする
-        memo.clear()
-        memo.append(a)
-
-    print(len(deq))
+if __name__ == '__main__':
+    main()
