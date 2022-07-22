@@ -13,7 +13,6 @@ from itertools import permutations
 (3, 2, 1)
 '''
 from typing import List, Iterator
-
 '''
 recursionの考え方
   端っこから整列する 一単位の作業を徐々に全体に波及させていく時に使える
@@ -32,26 +31,22 @@ def all_perms_v1(elements: List[int]) -> List[List[int]]:
 
     for perm in all_perms_v1(elements[1:]):
         for i in range(len(elements)):
-                result.append(perm[:i] + elements[0:1] + perm[i:])
+            result.append(perm[:i] + elements[0:1] + perm[i:])
     return result
 
 
-# def all_perms_v2(elements: List[int]) -> Iterator[List[int]]:
-#     if len(elements) <= 1:
-#         yield elements
-#     else:
-#         for perm in all_perms_v2(elements[1:]):
-#             for i in range(len(elements)):
-#                 yield perm[:i] + elements[0:1] + perm[i:]
-
+def all_perms_v2(elements: List[int]) -> Iterator[List[int]]:
+    if len(elements) <= 1:
+        yield elements
+    else:
+        for perm in all_perms_v2(elements[1:]):
+            for i in range(len(elements)):
+                yield perm[:i] + elements[0:1] + perm[i:]
 
 
 # -------------------------------------------------------
 # palindrome回文判定プログラム
 # ------------------------------------------------------
-
-
-
 """
 1. Check palindrome
 aba => True
@@ -66,28 +61,23 @@ print(s == s[::-1])
 
 """
 
-
 from typing import Generator
 
 
 def is_palindrome(strings: str) -> bool:
-  len_strings = len(strings)
-  if not len_strings:
-    return False
-  if len_strings == 1:
+    len_strings = len(strings)
+    if not len_strings:
+        return False
+    if len_strings == 1:
+        return True
+
+    start, end = 0, len_strings - 1
+    while start < end:
+        if strings[start] != strings[end]:
+            return False
+        start += 1
+        end -= 1
     return True
-  
-  start, end = 0, len_strings - 1
-  while start < end:
-    if strings[start] != strings[end]:
-      return False
-    start += 1
-    end -= 1
-  return True
-
-
-
-
 
 
 '''
@@ -98,38 +88,35 @@ abcracecarbda => cec, aceca, racecar
 racecar
 '''
 
+
 def find_palindrome(strings: str, left: int, right: int) -> List:
-  result = []
-  while 0 <= left and right <= len(strings) - 1:
-    if strings[left] != strings[right]:
-      break
-    result.append(strings[left: right + 1])
-    left -= 1
-    right += 1
-  return result
+    result = []
+    while 0 <= left and right <= len(strings) - 1:
+        if strings[left] != strings[right]:
+            break
+        result.append(strings[left:right + 1])
+        left -= 1
+        right += 1
+    return result
+
 
 def find_all_palindroem(strings: str) -> List:
-  result = []
-  len_strings = len(strings)
-  if not len_strings:
+    result = []
+    len_strings = len(strings)
+    if not len_strings:
+        return result
+    if len_strings == 1:
+        result.append(strings)
+
+    # aba
+    # abba
+    for i in range(1, len_strings - 1):
+        for s in find_palindrome(strings, i - 1, i + 1):
+            result.append(s)
+        for s in find_palindrome(strings, i - 1, i):
+            result.append(s)
+
     return result
-  if len_strings == 1:
-    result.append(strings)
-  
-  # aba
-  # abba
-  for i in range(1, len_strings - 1):
-    for s in find_palindrome(strings, i-1, i+1):
-      result.append(s)
-    for s in find_palindrome(strings, i-1, i):
-      result.append(s)
-
-  return result  
-
-
-  
-
-
 
 
 if __name__ == '__main__':
@@ -142,10 +129,3 @@ if __name__ == '__main__':
 
     print(is_palindrome('raecear'))
     print(find_all_palindroem('cabac'))
-
-
-
-
-
-
-
