@@ -16,9 +16,9 @@ def main():
         indegrees[t] += 1
     """
     以下の操作を繰り返し、全ての頂点を取り除いた後に得られる配列がトポロジカルソートされている！
-    1. 入次数0の頂点vvを発見する。
-    2. 頂点vvを配列の末尾に追加する。
-    3. 有向グラフから頂点vvと、その頂点から出ている辺をすべて削除する
+    1. 入次数0の頂点vを発見する。
+    2. 頂点vを配列の末尾に追加する。
+    3. 有向グラフから頂点vと、その頂点から出ている辺をすべて削除する
     """
 
     def topological_sort(graph, indegrees):
@@ -34,8 +34,7 @@ def main():
             v = dq.pop()
 
             # その頂点と隣接している頂点の入り次数を減らし、0になればdqに追加する
-            for i in range(len(graph[v])):
-                u = graph[v][i]
+            for u in graph[v]:
                 indegrees[u] -= 1
                 if indegrees[u] == 0:
                     dq.append(u)

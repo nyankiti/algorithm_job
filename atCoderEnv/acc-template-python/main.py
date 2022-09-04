@@ -1,4 +1,7 @@
-from sys import stdin
+from sys import stdin, setrecursionlimit
+
+setrecursionlimit(10**6)
+
 
 def main():
     pass
