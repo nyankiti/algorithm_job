@@ -42,7 +42,12 @@
       "id": "abc236_d",
       "label": "D",
       "title": "Dance",
-      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_d"
+      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "d.py"
+      }
     },
     {
       "id": "abc236_e",
