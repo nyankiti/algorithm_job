@@ -64,37 +64,67 @@
       "id": "dp_f",
       "label": "F",
       "title": "LCS",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_f"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_f",
+      "directory": {
+        "path": "f",
+        "testdir": "test",
+        "submit": "f.py"
+      }
     },
     {
       "id": "dp_g",
       "label": "G",
       "title": "Longest Path",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_g"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_g",
+      "directory": {
+        "path": "g",
+        "testdir": "test",
+        "submit": "g.py"
+      }
     },
     {
       "id": "dp_h",
       "label": "H",
       "title": "Grid 1",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_h"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_h",
+      "directory": {
+        "path": "h",
+        "testdir": "test",
+        "submit": "h.py"
+      }
     },
     {
       "id": "dp_i",
       "label": "I",
       "title": "Coins",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_i"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_i",
+      "directory": {
+        "path": "i",
+        "testdir": "test",
+        "submit": "i.py"
+      }
     },
     {
       "id": "dp_j",
       "label": "J",
       "title": "Sushi",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_j"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_j",
+      "directory": {
+        "path": "j",
+        "testdir": "test",
+        "submit": "j.py"
+      }
     },
     {
       "id": "dp_k",
       "label": "K",
       "title": "Stones",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_k"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_k",
+      "directory": {
+        "path": "k",
+        "testdir": "test",
+        "submit": "k.py"
+      }
     },
     {
       "id": "dp_l",
