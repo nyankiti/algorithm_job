@@ -9,13 +9,23 @@
       "id": "abc221_a",
       "label": "A",
       "title": "Seismic magnitude scales",
-      "url": "https://atcoder.jp/contests/abc221/tasks/abc221_a"
+      "url": "https://atcoder.jp/contests/abc221/tasks/abc221_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "a.py"
+      }
     },
     {
       "id": "abc221_b",
       "label": "B",
       "title": "typo",
-      "url": "https://atcoder.jp/contests/abc221/tasks/abc221_b"
+      "url": "https://atcoder.jp/contests/abc221/tasks/abc221_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "b.py"
+      }
     },
     {
       "id": "abc221_c",

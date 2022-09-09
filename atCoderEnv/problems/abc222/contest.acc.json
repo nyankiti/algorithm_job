@@ -9,13 +9,23 @@
       "id": "abc222_a",
       "label": "A",
       "title": "Four Digits",
-      "url": "https://atcoder.jp/contests/abc222/tasks/abc222_a"
+      "url": "https://atcoder.jp/contests/abc222/tasks/abc222_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "a.py"
+      }
     },
     {
       "id": "abc222_b",
       "label": "B",
       "title": "Failing Grade",
-      "url": "https://atcoder.jp/contests/abc222/tasks/abc222_b"
+      "url": "https://atcoder.jp/contests/abc222/tasks/abc222_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "b.py"
+      }
     },
     {
       "id": "abc222_c",

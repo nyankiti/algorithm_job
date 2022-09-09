@@ -9,13 +9,23 @@
       "id": "abc220_a",
       "label": "A",
       "title": "Find Multiple",
-      "url": "https://atcoder.jp/contests/abc220/tasks/abc220_a"
+      "url": "https://atcoder.jp/contests/abc220/tasks/abc220_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "a.py"
+      }
     },
     {
       "id": "abc220_b",
       "label": "B",
       "title": "Base K",
-      "url": "https://atcoder.jp/contests/abc220/tasks/abc220_b"
+      "url": "https://atcoder.jp/contests/abc220/tasks/abc220_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "b.py"
+      }
     },
     {
       "id": "abc220_c",

@@ -9,13 +9,23 @@
       "id": "abc223_a",
       "label": "A",
       "title": "Exact Price",
-      "url": "https://atcoder.jp/contests/abc223/tasks/abc223_a"
+      "url": "https://atcoder.jp/contests/abc223/tasks/abc223_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "a.py"
+      }
     },
     {
       "id": "abc223_b",
       "label": "B",
       "title": "String Shifting",
-      "url": "https://atcoder.jp/contests/abc223/tasks/abc223_b"
+      "url": "https://atcoder.jp/contests/abc223/tasks/abc223_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "b.py"
+      }
     },
     {
       "id": "abc223_c",
