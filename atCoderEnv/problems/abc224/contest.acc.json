@@ -9,13 +9,23 @@
       "id": "abc224_a",
       "label": "A",
       "title": "Tires",
-      "url": "https://atcoder.jp/contests/abc224/tasks/abc224_a"
+      "url": "https://atcoder.jp/contests/abc224/tasks/abc224_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "a.py"
+      }
     },
     {
       "id": "abc224_b",
       "label": "B",
       "title": "Mongeness",
-      "url": "https://atcoder.jp/contests/abc224/tasks/abc224_b"
+      "url": "https://atcoder.jp/contests/abc224/tasks/abc224_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "b.py"
+      }
     },
     {
       "id": "abc224_c",

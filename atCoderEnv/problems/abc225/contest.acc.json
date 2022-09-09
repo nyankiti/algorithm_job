@@ -9,13 +9,23 @@
       "id": "abc225_a",
       "label": "A",
       "title": "Distinct Strings",
-      "url": "https://atcoder.jp/contests/abc225/tasks/abc225_a"
+      "url": "https://atcoder.jp/contests/abc225/tasks/abc225_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "a.py"
+      }
     },
     {
       "id": "abc225_b",
       "label": "B",
       "title": "Star or Not",
-      "url": "https://atcoder.jp/contests/abc225/tasks/abc225_b"
+      "url": "https://atcoder.jp/contests/abc225/tasks/abc225_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "b.py"
+      }
     },
     {
       "id": "abc225_c",
