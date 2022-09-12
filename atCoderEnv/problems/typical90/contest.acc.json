@@ -229,7 +229,12 @@
       "id": "typical90_z",
       "label": "026",
       "title": "Independent Set on a Tree（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_z"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_z",
+      "directory": {
+        "path": "026",
+        "testdir": "test",
+        "submit": "026.py"
+      }
     },
     {
       "id": "typical90_aa",
@@ -246,7 +251,12 @@
       "id": "typical90_ab",
       "label": "028",
       "title": "Cluttered Paper（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ab"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ab",
+      "directory": {
+        "path": "028",
+        "testdir": "test",
+        "submit": "028.py"
+      }
     },
     {
       "id": "typical90_ac",
