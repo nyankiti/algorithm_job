@@ -163,37 +163,67 @@
       "id": "APG4b_o",
       "label": "O",
       "title": "1.14.STLの関数",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_o"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_o",
+      "directory": {
+        "path": "o",
+        "testdir": "test",
+        "submit": "o.cpp"
+      }
     },
     {
       "id": "APG4b_p",
       "label": "P",
       "title": "1.15.関数",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_p"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_p",
+      "directory": {
+        "path": "p",
+        "testdir": "test",
+        "submit": "p.cpp"
+      }
     },
     {
       "id": "APG4b_q",
       "label": "Q",
       "title": "2.00.第2章について",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_q"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_q",
+      "directory": {
+        "path": "q",
+        "testdir": "test",
+        "submit": "q.cpp"
+      }
     },
     {
       "id": "APG4b_r",
       "label": "R",
       "title": "2.01.ループの書き方と範囲for文",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_r"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_r",
+      "directory": {
+        "path": "r",
+        "testdir": "test",
+        "submit": "r.cpp"
+      }
     },
     {
       "id": "APG4b_s",
       "label": "S",
       "title": "2.02.多重ループ",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_s"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_s",
+      "directory": {
+        "path": "s",
+        "testdir": "test",
+        "submit": "s.cpp"
+      }
     },
     {
       "id": "APG4b_t",
       "label": "T",
       "title": "2.03.多次元配列",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_t"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_t",
+      "directory": {
+        "path": "t",
+        "testdir": "test",
+        "submit": "t.cpp"
+      }
     },
     {
       "id": "APG4b_u",

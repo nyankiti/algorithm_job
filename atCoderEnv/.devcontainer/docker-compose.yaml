@@ -14,6 +14,7 @@ services:
       - ../problems:/root/problems:cached
       - ../library:/root/library:cached
       - ../acc-template-python:/root/.config/atcoder-cli-nodejs/python:cached
+      - ../acc-template-cpp:/root/.config/atcoder-cli-nodejs/cpp:cached
       - ../.vscode:/root/.vscode:cached
 
       # # オプション これらのconfigファイルが必要なければコメントアウト
