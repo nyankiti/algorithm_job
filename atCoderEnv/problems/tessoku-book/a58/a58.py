@@ -57,6 +57,7 @@ def main():
             l, r = query[1], query[2]
             ans = seg_tree.query(l-1, r-1, 0, seg_tree.size, 1)
             print(ans)
+    print(seg_tree.dat)
 
 
 if __name__ == '__main__':

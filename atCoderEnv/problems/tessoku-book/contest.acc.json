@@ -742,43 +742,78 @@
       "id": "tessoku_book_bs",
       "label": "A71",
       "title": "Homework",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bs"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bs",
+      "directory": {
+        "path": "a71",
+        "testdir": "test",
+        "submit": "a71.py"
+      }
     },
     {
       "id": "tessoku_book_bt",
       "label": "A72",
       "title": "Tile Painting",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bt"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bt",
+      "directory": {
+        "path": "a72",
+        "testdir": "test",
+        "submit": "a72.py"
+      }
     },
     {
       "id": "tessoku_book_bu",
       "label": "A73",
       "title": "Marathon Route",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bu"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bu",
+      "directory": {
+        "path": "a73",
+        "testdir": "test",
+        "submit": "a73.py"
+      }
     },
     {
       "id": "tessoku_book_bv",
       "label": "A74",
       "title": "Board Game",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bv"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bv",
+      "directory": {
+        "path": "a74",
+        "testdir": "test",
+        "submit": "a74.py"
+      }
     },
     {
       "id": "tessoku_book_bw",
       "label": "A75",
       "title": "Examination",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bw"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bw",
+      "directory": {
+        "path": "a75",
+        "testdir": "test",
+        "submit": "a75.py"
+      }
     },
     {
       "id": "tessoku_book_bx",
       "label": "A76",
       "title": "River Crossing",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bx"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bx",
+      "directory": {
+        "path": "a76",
+        "testdir": "test",
+        "submit": "a76.py"
+      }
     },
     {
       "id": "typical90_a",
       "label": "A77",
       "title": "Yokan Party（★4）",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/typical90_a"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/typical90_a",
+      "directory": {
+        "path": "a77",
+        "testdir": "test",
+        "submit": "a77.py"
+      }
     },
     {
       "id": "tessoku_book_bz",
