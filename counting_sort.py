@@ -11,12 +11,12 @@ def counting_sort(numbers: List[int]) -> List[int]:
         counts[num] += 1
 
     for i in range(1, len(counts)):
-        counts[i] += counts[i-1]
+        counts[i] += counts[i - 1]
 
     i = len(numbers) - 1
     while i >= 0:
         index = numbers[i]
-        result[counts[index]-1] = numbers[i]
+        result[counts[index] - 1] = numbers[i]
         counts[index] -= 1
         i -= 1
 
