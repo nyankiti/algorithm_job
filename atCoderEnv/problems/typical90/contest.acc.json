@@ -302,7 +302,12 @@
       "id": "typical90_ah",
       "label": "034",
       "title": "There are few types of elements（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ah"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ah",
+      "directory": {
+        "path": "034",
+        "testdir": "test",
+        "submit": "034.py"
+      }
     },
     {
       "id": "typical90_ai",
@@ -355,13 +360,23 @@
       "id": "typical90_ap",
       "label": "042",
       "title": "Multiple of 9（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ap"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ap",
+      "directory": {
+        "path": "042",
+        "testdir": "test",
+        "submit": "042.py"
+      }
     },
     {
       "id": "typical90_aq",
       "label": "043",
       "title": "Maze Challenge with Lack of Sleep（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aq"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aq",
+      "directory": {
+        "path": "043",
+        "testdir": "test",
+        "submit": "043.py"
+      }
     },
     {
       "id": "typical90_ar",
