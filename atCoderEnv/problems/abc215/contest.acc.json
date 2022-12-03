@@ -9,13 +9,23 @@
       "id": "abc215_a",
       "label": "A",
       "title": "Your First Judge",
-      "url": "https://atcoder.jp/contests/abc215/tasks/abc215_a"
+      "url": "https://atcoder.jp/contests/abc215/tasks/abc215_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "a.py"
+      }
     },
     {
       "id": "abc215_b",
       "label": "B",
       "title": "log2(N)",
-      "url": "https://atcoder.jp/contests/abc215/tasks/abc215_b"
+      "url": "https://atcoder.jp/contests/abc215/tasks/abc215_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "b.py"
+      }
     },
     {
       "id": "abc215_c",
