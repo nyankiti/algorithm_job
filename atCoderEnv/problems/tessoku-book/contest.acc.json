@@ -1545,31 +1545,56 @@
       "id": "tessoku_book_fi",
       "label": "C11",
       "title": "Election",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fi"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fi",
+      "directory": {
+        "path": "c11",
+        "testdir": "test",
+        "submit": "c11.py"
+      }
     },
     {
       "id": "tessoku_book_fj",
       "label": "C12",
       "title": "Taro the Novel Writer",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fj"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fj",
+      "directory": {
+        "path": "c12",
+        "testdir": "test",
+        "submit": "c12.py"
+      }
     },
     {
       "id": "tessoku_book_fk",
       "label": "C13",
       "title": "Select 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fk"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fk",
+      "directory": {
+        "path": "c13",
+        "testdir": "test",
+        "submit": "c13.py"
+      }
     },
     {
       "id": "tessoku_book_fl",
       "label": "C14",
       "title": "Commute Route",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fl"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fl",
+      "directory": {
+        "path": "c14",
+        "testdir": "test",
+        "submit": "c14.py"
+      }
     },
     {
       "id": "tessoku_book_fm",
       "label": "C15",
       "title": "Many Meetings",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fm"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_fm",
+      "directory": {
+        "path": "c15",
+        "testdir": "test",
+        "submit": "c15.py"
+      }
     },
     {
       "id": "tessoku_book_fn",
