@@ -229,49 +229,89 @@
       "id": "APG4b_u",
       "label": "U",
       "title": "2.04.参照",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_u"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_u",
+      "directory": {
+        "path": "u",
+        "testdir": "test",
+        "submit": "u.cpp"
+      }
     },
     {
       "id": "APG4b_v",
       "label": "V",
       "title": "2.05.再帰関数",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_v"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_v",
+      "directory": {
+        "path": "v",
+        "testdir": "test",
+        "submit": "v.cpp"
+      }
     },
     {
       "id": "APG4b_w",
       "label": "W",
       "title": "2.06.計算量",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_w"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_w",
+      "directory": {
+        "path": "w",
+        "testdir": "test",
+        "submit": "w.cpp"
+      }
     },
     {
       "id": "APG4b_x",
       "label": "X",
       "title": "3.00.第3章について",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_x"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_x",
+      "directory": {
+        "path": "x",
+        "testdir": "test",
+        "submit": "x.cpp"
+      }
     },
     {
       "id": "APG4b_y",
       "label": "Y",
       "title": "3.01.数値型",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_y"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_y",
+      "directory": {
+        "path": "y",
+        "testdir": "test",
+        "submit": "y.cpp"
+      }
     },
     {
       "id": "APG4b_z",
       "label": "Z",
       "title": "3.02.pair／tupleとauto",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_z"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_z",
+      "directory": {
+        "path": "z",
+        "testdir": "test",
+        "submit": "z.cpp"
+      }
     },
     {
       "id": "APG4b_aa",
       "label": "AA",
       "title": "3.03.STLのコンテナ",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_aa"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_aa",
+      "directory": {
+        "path": "aa",
+        "testdir": "test",
+        "submit": "aa.cpp"
+      }
     },
     {
       "id": "APG4b_ab",
       "label": "AB",
       "title": "3.04.構造体",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_ab"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_ab",
+      "directory": {
+        "path": "ab",
+        "testdir": "test",
+        "submit": "ab.cpp"
+      }
     },
     {
       "id": "APG4b_ac",
