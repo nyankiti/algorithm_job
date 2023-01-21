@@ -15,7 +15,7 @@ RUN chsh -s /bin/zsh
 
 # C++, Python3, PyPy3の3つの環境想定
 RUN apt-get update && \
-    apt-get install -y gcc-9 g++-9 python3.9 python3-pip pypy3 nodejs npm
+    apt-get install -y gcc-9 g++-9 python3.9 python3-pip pypy3 nodejs npm gdb
 
 # 一般的なコマンドで使えるように設定
 # e.g. python3.8 main.py => python main.py
@@ -48,7 +48,9 @@ RUN pip install online-judge-tools && \
 
 # atcoder-cliの設定
 RUN acc config-dir && \
-    acc config default-template python && \
+    # デフォルトの言語をpythonにする場合
+    # acc config default-template python && \
+    acc config default-template cpp && \
     acc config default-test-dirname-format test
 
 # # AHC用のRustのinstall
