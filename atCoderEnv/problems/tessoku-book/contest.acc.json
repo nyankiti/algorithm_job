@@ -174,61 +174,111 @@
       "id": "tessoku_book_p",
       "label": "A16",
       "title": "Dungeon 1（※初版第 1 刷の B22 も同じ問題です）",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_p"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_p",
+      "directory": {
+        "path": "a16",
+        "testdir": "test",
+        "submit": "a16.cpp"
+      }
     },
     {
       "id": "tessoku_book_q",
       "label": "A17",
       "title": "Dungeon 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_q"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_q",
+      "directory": {
+        "path": "a17",
+        "testdir": "test",
+        "submit": "a17.cpp"
+      }
     },
     {
       "id": "tessoku_book_r",
       "label": "A18",
       "title": "Subset Sum",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_r"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_r",
+      "directory": {
+        "path": "a18",
+        "testdir": "test",
+        "submit": "a18.cpp"
+      }
     },
     {
       "id": "tessoku_book_s",
       "label": "A19",
       "title": "Knapsack 1",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_s"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_s",
+      "directory": {
+        "path": "a19",
+        "testdir": "test",
+        "submit": "a19.cpp"
+      }
     },
     {
       "id": "tessoku_book_t",
       "label": "A20",
       "title": "LCS",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_t"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_t",
+      "directory": {
+        "path": "a20",
+        "testdir": "test",
+        "submit": "a20.cpp"
+      }
     },
     {
       "id": "tessoku_book_u",
       "label": "A21",
       "title": "Block Game",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_u"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_u",
+      "directory": {
+        "path": "a21",
+        "testdir": "test",
+        "submit": "a21.cpp"
+      }
     },
     {
       "id": "tessoku_book_v",
       "label": "A22",
       "title": "Sugoroku",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_v"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_v",
+      "directory": {
+        "path": "a22",
+        "testdir": "test",
+        "submit": "a22.cpp"
+      }
     },
     {
       "id": "tessoku_book_w",
       "label": "A23",
       "title": "All Free",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_w"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_w",
+      "directory": {
+        "path": "a23",
+        "testdir": "test",
+        "submit": "a23.cpp"
+      }
     },
     {
       "id": "tessoku_book_x",
       "label": "A24",
       "title": "LIS",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_x"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_x",
+      "directory": {
+        "path": "a24",
+        "testdir": "test",
+        "submit": "a24.cpp"
+      }
     },
     {
       "id": "tessoku_book_y",
       "label": "A25",
       "title": "Number of Routes",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_y"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_y",
+      "directory": {
+        "path": "a25",
+        "testdir": "test",
+        "submit": "a25.cpp"
+      }
     },
     {
       "id": "tessoku_book_z",
@@ -666,49 +716,89 @@
       "id": "dp_a",
       "label": "B16",
       "title": "Frog 1",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/dp_a"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/dp_a",
+      "directory": {
+        "path": "b16",
+        "testdir": "test",
+        "submit": "b16.cpp"
+      }
     },
     {
       "id": "tessoku_book_cp",
       "label": "B17",
       "title": "Frog 1 with Restoration",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cp"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cp",
+      "directory": {
+        "path": "b17",
+        "testdir": "test",
+        "submit": "b17.cpp"
+      }
     },
     {
       "id": "tessoku_book_cq",
       "label": "B18",
       "title": "Subset Sum with Restoration",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cq"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cq",
+      "directory": {
+        "path": "b18",
+        "testdir": "test",
+        "submit": "b18.cpp"
+      }
     },
     {
       "id": "tessoku_book_cr",
       "label": "B19",
       "title": "Knapsack 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cr"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cr",
+      "directory": {
+        "path": "b19",
+        "testdir": "test",
+        "submit": "b19.cpp"
+      }
     },
     {
       "id": "tessoku_book_cs",
       "label": "B20",
       "title": "Edit Distance",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cs"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cs",
+      "directory": {
+        "path": "b20",
+        "testdir": "test",
+        "submit": "b20.cpp"
+      }
     },
     {
       "id": "tessoku_book_ct",
       "label": "B21",
       "title": "Longest Subpalindrome",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ct"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ct",
+      "directory": {
+        "path": "b21",
+        "testdir": "test",
+        "submit": "b21.cpp"
+      }
     },
     {
       "id": "tessoku_book_cv",
       "label": "B23",
       "title": "Traveling Salesman Problem",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cv"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cv",
+      "directory": {
+        "path": "b23",
+        "testdir": "test",
+        "submit": "b23.cpp"
+      }
     },
     {
       "id": "tessoku_book_cw",
       "label": "B24",
       "title": "Many Boxes",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cw"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cw",
+      "directory": {
+        "path": "b24",
+        "testdir": "test",
+        "submit": "b24.cpp"
+      }
     },
     {
       "id": "tessoku_book_cy",
