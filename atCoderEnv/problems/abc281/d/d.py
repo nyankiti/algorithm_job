@@ -21,12 +21,6 @@ def main():
                 if (j != K):
                     dp[i+1][j+1][(k+A[i]) % D] = max(dp[i+1][j+1]
                                                      [(k+A[i]) % D], dp[i][j][k]+A[i])
-    # for i in range(N+1):
-    #     for j in range(K+1):
-    #         for k in range(D):
-    #             print(i, j, k, "dp val", dp[i][j][k])
-    # for row in dp:
-    #     print(row)
 
     print(dp[N][K][0])
 
