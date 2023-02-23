@@ -31,7 +31,17 @@ RUN pip install numpy && \
     pip install scipy && \
     pip install scikit-learn && \
     pip install numba && \
-    pip install networkx
+    pip install networkx && \
+    # Heuristic のためのパッケージ
+    pip install black && \
+    pip install jupyterlab && \
+    pip install jupyterlab_code_formatter && \
+    pip install jupyterlab-git && \
+    pip install lckr-jupyterlab-variableinspector && \
+    pip install jupyterlab_widgets && \
+    pip install ipywidgets && \
+    pip install import-ipynb && \
+    pip install optuna
 
 # C++でAtCoder Library(ACL)を使えるようにする
 RUN git clone https://github.com/atcoder/ac-library.git /lib/ac-library

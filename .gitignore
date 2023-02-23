@@ -8,3 +8,6 @@ udemy/sakaiLecture/course-src/
 a.out
 
 statistics/work/test/
+
+# jupyterファイルの永続化のファイル
+root_jupyter/
