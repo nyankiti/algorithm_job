@@ -1,0 +1,20 @@
+{
+  "contest": {
+    "id": "chokudai001",
+    "title": "Chokudai Contest 001",
+    "url": "https://atcoder.jp/contests/chokudai001"
+  },
+  "tasks": [
+    {
+      "id": "chokudai_001_a",
+      "label": "A",
+      "title": "高橋君の山崩しゲーム",
+      "url": "https://atcoder.jp/contests/chokudai001/tasks/chokudai_001_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "a.cpp"
+      }
+    }
+  ]
+}
