@@ -130,31 +130,56 @@
       "id": "dp_l",
       "label": "L",
       "title": "Deque",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_l"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_l",
+      "directory": {
+        "path": "l",
+        "testdir": "test",
+        "submit": "l.py"
+      }
     },
     {
       "id": "dp_m",
       "label": "M",
       "title": "Candies",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_m"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_m",
+      "directory": {
+        "path": "m",
+        "testdir": "test",
+        "submit": "m.py"
+      }
     },
     {
       "id": "dp_n",
       "label": "N",
       "title": "Slimes",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_n"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_n",
+      "directory": {
+        "path": "n",
+        "testdir": "test",
+        "submit": "n.py"
+      }
     },
     {
       "id": "dp_o",
       "label": "O",
       "title": "Matching",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_o"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_o",
+      "directory": {
+        "path": "o",
+        "testdir": "test",
+        "submit": "o.py"
+      }
     },
     {
       "id": "dp_p",
       "label": "P",
       "title": "Independent Set",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_p"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_p",
+      "directory": {
+        "path": "p",
+        "testdir": "test",
+        "submit": "p.py"
+      }
     },
     {
       "id": "dp_q",
